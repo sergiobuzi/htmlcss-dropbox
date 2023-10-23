@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color:bisque;
+    background-color:white;
     color: black;
 }
 
@@ -108,3 +108,93 @@ nav{
     margin-top: 120px;
     font-size: 50px;
  }
+
+                         /*main*/
+
+main{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /*debug*/
+    background-color: rgb(255, 255, 255);
+}
+
+/*blocco prezzi contattami e aziende affiliate*/
+
+h2{
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+#checkbox{
+    margin-top: 40px;
+}
+
+.fatturazione{
+    margin-right: 50px;
+}
+
+/*blocco prezziario*/
+
+#container-prices{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-price-block{
+    width: calc(100% / 3 - 40px);
+    margin: auto;
+    margin-top: 50px;
+    border: 1px #dddddd solid;
+    min-height: 1200px;
+    font-size: 18;
+}
+
+.user{
+    text-align: center;
+    border-bottom: 1px #dddddd solid;
+    padding: 5px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.main-price-block-content{
+    padding: 30px;
+}
+
+.month{
+    color: grey;
+}
+
+.type{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.space{
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.type2{
+    padding-top: 30px;
+}
+
+.or{
+    border-bottom:1px #dddddd solid ;
+    padding-bottom: 30px;
+}
+
+h4{
+    margin-top: 70px;
+}
+
+.fa-check{
+    color: #0061ff;
+}
+
