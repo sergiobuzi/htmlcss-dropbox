@@ -155,7 +155,7 @@ h2{
 .user{
     text-align: center;
     border-bottom: 1px #dddddd solid;
-    padding: 5px;
+    padding: 10px;
 }
 
 h3{
@@ -197,4 +197,37 @@ h4{
 .fa-check{
     color: #0061ff;
 }
+
+/*blocco orizzontale*/
+
+.main-price-block-horizontal{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px #dddddd solid;
+    font-size: 18px;
+    
+}
+
+#horizontal-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#horizontal-main{
+    width: 700px;
+    
+}
+
+#horizontal-secondary{
+    margin-top: 40px;
+}
+
+
+p{
+   margin-top: 40px; 
+   font-size:15px ;
+}
+
 
