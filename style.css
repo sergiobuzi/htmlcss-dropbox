@@ -1,0 +1,110 @@
+                        /*stili generali della pagina*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:bisque;
+    color: black;
+}
+
+:root{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+                            /*header*/                         
+
+/*nav*/
+
+nav{
+    height: 75px;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.nav-option{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#first-nav-section{
+    margin-left: 15px;
+    
+}
+
+#second-nav-section{
+    margin-right: 15px;
+}
+
+.start{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+ /*jumbotron*/
+
+ #jumbotron{
+    background-color: #b5d0e6;
+    height: 800px;
+    position: relative;
+ }
+
+ h1{
+    padding-top: 50px;
+    font-size: 80px;
+    font-weight: 1000;
+ }
+
+ #container-header{
+    width: 70%;
+    margin: auto;
+    text-align: left;
+ }
+
+ #p-header{
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+ }
+
+ .jumbo{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 17px;
+ }
+
+ #delete{
+    margin-top: 40px;
+ }
+
+ #jumbo-img{
+    max-width: 1000px;
+    position: absolute;
+    right: 200px;
+    top: 320px;
+ }
+
+ .fa-arrow-down{
+    margin-top: 120px;
+    font-size: 50px;
+ }
