@@ -260,7 +260,7 @@ p{
 
 /*blocco  in flex con le varie funzioni di dropbox*/
 
-#column{
+.column{
     display: flex;
     flex-direction: column;
     max-width: 100%;
@@ -280,4 +280,111 @@ p{
 
 .main-img-flex{
     max-width: 100%;
+}
+
+                           /*footer*/
+
+
+/*sezione carousel*/
+
+#carousel-container{
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+    background-color: #f4f4f5;
+    display: flex;
+    flex-direction: row;
+}
+
+.squares-box{
+    width: calc(100% / 3);
+    background-color: aqua;
+    display: flex;
+}
+
+#text-box{
+    width: calc(100% / 3);
+    background-color: #f4f4f5;
+}
+
+.col{
+    flex-direction: column;
+    width: calc(100% / 2);
+    display: flex;
+}
+
+.squares{
+    flex-direction: row;
+    height:calc(100% / 2);
+}
+
+.mini-square1{
+    width: 100%;
+    height: 100%;
+    background-color: #a2d29a;
+    justify-content: center;
+    display: flex;
+}
+
+.mini-square2{
+    width: 100%;
+    height: 100%;
+    background-color: #0193cf;
+    justify-content: center;
+    display: flex;
+}
+
+.mini-square3{
+    width: 100%;
+    height: 100%;
+    background-color: #61082b;
+    justify-content: center;
+    display: flex;
+}
+
+.mini-square4{
+    width: 100%;
+    height: 100%;
+    background-color:#ff1c1c;
+    justify-content: center;
+    display: flex;
+}
+
+.mini-square5{
+    width: 100%;
+    height: 100%;
+    background-color:#d5001f;
+    justify-content: center;
+    display: flex;
+}
+
+.mini-square6{
+    width: 100%;
+    height: 100%;
+    background-color:#0c2480;
+    justify-content: center;
+    display: flex;
+}
+
+.mini-square7{
+    width: 100%;
+    height: 100%;
+    background-color:#b5d1e7;
+    justify-content: center;
+    display: flex;
+}
+
+.mini-square8{
+    width: 100%;
+    height: 100%;
+    background-color:#fed930;
+    justify-content: center;
+    display: flex;
+}
+
+.img-carousel{
+    color: white;
+    width: 100%;
+    padding: 50px;
+    filter: invert(1);
 }
