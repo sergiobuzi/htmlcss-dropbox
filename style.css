@@ -257,3 +257,27 @@ p{
     font-weight: 200;
     font-size: 17px;
 }
+
+/*blocco  in flex con le varie funzioni di dropbox*/
+
+#column{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+
+.card{
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+.main-img-flex{
+    max-width: 100%;
+}
