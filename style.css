@@ -390,6 +390,7 @@ p{
     margin: 50px;
     width: 600px;
     color: #61082b;
+    margin-left: -25px;
 }
 
 #bring-button{
@@ -400,4 +401,35 @@ p{
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+/*faq*/
+
+#faq-container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-direction: column;
+    height: 800px;
+}
+
+.question-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px black  solid;
+    margin-top: 100px;
+}
+
+.difference{
+    margin: 40px;
+    margin-left: 0px;
+    margin-bottom: -50px;
+    
+}
+
+.border-bottom{
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
 }
