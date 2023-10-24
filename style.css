@@ -230,4 +230,30 @@ p{
    font-size:15px ;
 }
 
+/*blocco con foto grande partner*/
 
+#partner{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#partner-pic{
+    width: 600px;
+}
+
+#didascalia{
+    margin: 50px;
+    max-width: 350px;
+}
+
+#partner-button{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px black solid;
+    padding: 5px 15px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 17px;
+}
