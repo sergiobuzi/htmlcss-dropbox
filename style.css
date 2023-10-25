@@ -68,7 +68,7 @@ nav{
     padding-top: 50px;
     font-size: 80px;
     font-weight: 1000;
-    width: 60%;
+    width: 70%;
     margin: auto;
  }
 
@@ -82,7 +82,6 @@ nav{
 
  #container-header-flex{
     flex-direction: column;
-
  }
 
  #p-header{
@@ -120,6 +119,7 @@ nav{
  .fa-arrow-down{
     margin-top: 120px;
     font-size: 50px;
+    color: black;
  }
 
                          /*main*/
