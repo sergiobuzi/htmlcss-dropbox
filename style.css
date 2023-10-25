@@ -448,6 +448,19 @@ p{
     padding-bottom: 30px;
 }
 
+/*hover faq*/
+
+#answer{
+    display: none;
+padding-top: 50px;
+}
+
+
+.question-box:active + #answer{
+    display: block;
+}
+
+
 
 /*sezione link utili*/
 
