@@ -307,6 +307,7 @@ p{
     width: calc(100% / 3);
     background-color: #f4f4f5;
     padding: 50px;
+    overflow-y: scroll;
 }
 
 .col{
@@ -432,4 +433,52 @@ p{
 .border-bottom{
     border-bottom: 1px solid black;
     padding-bottom: 30px;
+}
+
+
+/*sezione link utili*/
+
+#container-utility{
+    width: 100%;
+    background-color: black;
+    color: white;
+    min-height: 500px;
+}
+
+#box-utility{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+li{
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+#nation{
+    width: 70%;
+    margin: auto;
+}
+
+#nation-block{
+    width: 10%;
+    font-size: 17px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: grey;
+    margin-top: 200px;
+    border-top: white 1px solid;
+    font-style: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
