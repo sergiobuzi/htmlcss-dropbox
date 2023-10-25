@@ -302,8 +302,8 @@ p{
 
 #carousel-container{
     margin-top: 50px;
-    width: 100%;
-    height: 600px;
+    min-width: 100%;
+    min-height: 600px;
     background-color: #f4f4f5;
     display: flex;
     flex-direction: row;
@@ -424,7 +424,7 @@ p{
     width: 60%;
     margin: auto;
     flex-direction: column;
-    height: 800px;
+    min-height: 800px;
 }
 
 .question-box{
